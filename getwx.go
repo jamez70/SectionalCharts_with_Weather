@@ -176,9 +176,11 @@ func readAirports(fname string) {
 		}
 	}
 	defer f.Close()
-	//	for i := range airports {
-	//		fmt.Println("Airport "+airports[i].ICAO+" ["+airports[i].Lat+airports[i].Lng+"]")
-	//	}
+//		fmt.Println("$data = json_decode('[")
+//		for i := range airports {
+//			fmt.Println(" {\"loc\":["+airports[i].Lat+","+airports[i].Lng+"], \"title\": \""+airports[i].ICAO+"\"}," )
+//		}
+//		fmt.Println("]',true);")
 }
 
 //				  new L.LatLng(40.0003047916915, -93.0008962332189),
