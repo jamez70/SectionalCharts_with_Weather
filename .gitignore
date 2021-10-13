@@ -1,5 +1,5 @@
 *.csv
-
+cgipart
 mapserver
 cgimap
 getwx

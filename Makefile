@@ -1,8 +1,11 @@
-TARGETS := getwx cgimap
-SRCS := getwx.go cgimap.go
+TARGETS := getwx cgimap cgipart 
+SRCS := getwx.go cgimap.go cgipart.go
 INSTALL_TARGET := /var/www/html/map
 
 all: $(TARGETS)
+
+cgipart:	cgipart.go
+	go build cgipart.go
 
 getwx:	getwx.go
 	go build getwx.go
