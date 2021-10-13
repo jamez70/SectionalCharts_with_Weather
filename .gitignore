@@ -3,4 +3,7 @@
 mapserver
 cgimap
 getwx
+weather.txt
+*.csc
+pireps.txt
 
